@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crush</title>g
+    <link rel="stylesheet" href="n2.css">
+</head>
+<body>
+    <center><h1>RELATIONSHIP PREDUCTION</h1></center> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+  <h1> <b><input type="text"name="" id="name"placeholder="enter your name"></b></h1>
+  <br>
+    <input type="text"name="" id="name"placeholder="enter your crush name">
+    <br>
+    <br>
+    <br>
+   <button type="submit" id="submit" onclick="result()">check</button>
+   <br>
+   <p id="result"></p></center>
+   <script>
+    function result()
+    {
+        const name=document.getElementById('name');
+        const crush=document.getElementById("crush");
+        var marks=Math.random()*100;
+        var result=document.getElementById('result');
+        result.innerHTML="propability of getting with relationship is"+""+marks;
+    }
+        </script>
+        <style>
+     *{
+      font-size: large;
+    font-style: italic;
+    border-radius: 150cm;
+    border-color: darkred;
+            }
+        </style>
+        
+</body>
+</html>

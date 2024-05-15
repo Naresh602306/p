@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(202, 121, 16);
+}
+h1{
+    font-style:italic;
+    background-color: yellow;
+    color: red;
+    direction: rtl;
+    letter-spacing: 50px;
+    word-spacing: 500px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 1px black;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-left: 4px solid color(black);
+    border-right: 4px solid color(black);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
